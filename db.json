@@ -1,0 +1,33 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "empleados": [
+    {
+      "nombre": "Joaquin",
+      "apellido": "Mecozzi",
+      "email": "mecozzijoaquin@gmail.com",
+      "fechadenacimiento": "2003-06-17T03:00:00.000Z",
+      "genero": "Masculino",
+      "education": "Terciaria",
+      "institucion": "Beltran",
+      "telefono": "1138428284",
+      "sueldo": "300000",
+      "id": 1
+    }
+  ]
+}
