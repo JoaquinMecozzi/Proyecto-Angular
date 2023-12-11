@@ -20,14 +20,26 @@
     {
       "nombre": "Joaquin",
       "apellido": "Mecozzi",
-      "email": "mecozzijoaquin@gmail.com",
+      "email": "joaquinmecozzi@gmail.com",
       "fechadenacimiento": "2003-06-17T03:00:00.000Z",
-      "genero": "Masculino",
-      "education": "Terciaria",
+      "genero": "MASCULINO",
+      "education": "TERCIARIO",
       "institucion": "Beltran",
-      "telefono": "1138428284",
-      "sueldo": "300000",
+      "telefono": 1138428284,
+      "sueldo": 300000,
       "id": 1
+    },
+    {
+      "nombre": "SEBASTIAN ",
+      "apellido": "SALDIVAR",
+      "email": "ssaldivar@gmail.com",
+      "fechadenacimiento": "2000-01-01T03:00:00.000Z",
+      "genero": "MASCULINO",
+      "education": "UNIVERSITARIO",
+      "institucion": "Beltran",
+      "telefono": 1111111111,
+      "sueldo": 300000,
+      "id": 2
     }
   ]
 }

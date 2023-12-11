@@ -5,6 +5,7 @@
   <button class="editar-boton" mat-raised-button (click)="openDialog()">
     AGREGAR EMPLEADO</button>
   <button class="editar-boton" mat-raised-button (click)="openModal()">INICIAR SESION</button>
+  <button class="editar-boton" mat-raised-button [routerLink]="['/areas']">VER AREAS DE EMPLEADOS</button>
 </div>
   
   
@@ -93,6 +94,7 @@
   
     <mat-paginator [pageSizeOptions]="[5, 10, 25, 100]" aria-label="Select page of users"></mat-paginator>
   </div>
+
 </div>
 
 

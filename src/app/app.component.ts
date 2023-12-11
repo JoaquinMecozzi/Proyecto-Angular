@@ -8,6 +8,7 @@ import { MatTableDataSource, MatTableModule } from '@angular/material/table';
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { LoginComponent } from './login/login.component';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -35,7 +36,8 @@ export class AppComponent implements OnInit {
 
   constructor(
     private _dialog: MatDialog,
-    private _empService: EmpleadosService
+    private _empService: EmpleadosService,
+    private router: Router
   ) {}
 
   ngOnInit(): void {
@@ -97,5 +99,8 @@ export class AppComponent implements OnInit {
         }
       },
     });
+  }
+  redirigirAreas() {
+    this.router.navigate(['/areas']);
   }
 }
