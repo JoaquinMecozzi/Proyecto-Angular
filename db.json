@@ -40,6 +40,48 @@
       "telefono": 1111111111,
       "sueldo": 300000,
       "id": 2
+    },
+    {
+      "nombre": "ALCIDES",
+      "apellido": "MECOZZI",
+      "email": "amecozzi@gmail.com",
+      "fechadenacimiento": "1970-12-12T03:00:00.000Z",
+      "genero": "MASCULINO",
+      "education": "TERCIARIO",
+      "institucion": "UBA",
+      "telefono": 1169480298,
+      "sueldo": 300000,
+      "id": 3
+    },
+    {
+      "id": 4,
+      "diaTrabajado": "1111-11-11",
+      "entrada": "11:11",
+      "salida": "11:11"
+    },
+    {
+      "id": 5,
+      "diaTrabajado": "1111-11-11",
+      "entrada": "11:11",
+      "salida": "11:11"
+    },
+    {
+      "id": 6,
+      "diaTrabajado": "1111-11-11",
+      "entrada": "11:11",
+      "salida": "11:11"
+    },
+    {
+      "id": 7,
+      "diaTrabajado": "1111-11-11",
+      "entrada": "11:11",
+      "salida": "11:11"
+    },
+    {
+      "id": 8,
+      "diaTrabajado": "1111-11-11",
+      "entrada": "11:11",
+      "salida": "11:11"
     }
   ]
 }

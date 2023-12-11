@@ -23,6 +23,8 @@ import { MatSortModule } from '@angular/material/sort';
 import { LoginComponent } from './login/login.component';
 import { FormsModule } from '@angular/forms';
 import { AreasComponent } from './areas/areas.component';
+import { HomeComponent } from './home/home.component';
+import { FichadasComponent } from './fichadas/fichadas.component';
 
 
 
@@ -34,7 +36,9 @@ import { AreasComponent } from './areas/areas.component';
     AppComponent,
     EmpleadoAgregarEditarComponent,
     LoginComponent,
-    AreasComponent
+    AreasComponent,
+    HomeComponent,
+    FichadasComponent
   ],
   imports: [
     BrowserModule,

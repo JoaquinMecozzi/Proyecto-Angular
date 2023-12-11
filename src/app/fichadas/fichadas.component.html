@@ -1,0 +1,17 @@
+<form class="form" (ngSubmit)="enviarDatos()">
+    <h2>NUMERO DE LEGAJO DEL EMPLEADO</h2> 
+    <select class="input" [(ngModel)]="id"> 
+      <option *ngFor="let opcion of opciones" [value]="opcion.id">{{ opcion.id }}</option> 
+    </select> 
+    <br> 
+    <label>DIA TRABAJADO</label> 
+    <input class="input" type="date" name="fecha" [(ngModel)]="fecha"> 
+    <br> 
+    <label for="">ENTRADA</label> 
+    <br> 
+    <input class="input" type="time" name="entrada" [(ngModel)]="entrada"> 
+    <label for="">SALIDA</label> 
+    <input class="input" type="time" name="salida" [(ngModel)]="salida"> 
+    <button class="button" type="submit">Cargar Horas</button> 
+  </form>
+    

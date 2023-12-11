@@ -1,24 +1,25 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
-import { EmpleadoAgregarEditarComponent } from './empleado-agregar-editar/empleado-agregar-editar.component';
-import { EmpleadosService } from './services/empleados.service';
+
+
 import { MatPaginator, MatPaginatorModule } from '@angular/material/paginator';
 import { MatSort, MatSortModule } from '@angular/material/sort';
 import { MatTableDataSource, MatTableModule } from '@angular/material/table';
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
-import { LoginComponent } from './login/login.component';
+
 import { Router } from '@angular/router';
+import { LoginComponent } from '../login/login.component';
+import { EmpleadosService } from '../services/empleados.service';
+import { EmpleadoAgregarEditarComponent } from '../empleado-agregar-editar/empleado-agregar-editar.component';
+
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss'],
+  selector: 'app-home',
+  templateUrl: './home.component.html',
+  styleUrls: ['./home.component.scss']
 })
-export class AppComponent implements OnInit {
-  title(title: any) {
-    throw new Error('Method not implemented.');
-  }
+export class HomeComponent {
   displayedColumns: string[] = [
     'id',
     'nombre',
@@ -31,9 +32,6 @@ export class AppComponent implements OnInit {
     'telefono',
     'sueldo',
     'accion',
-    'entrada',
-    'salida',
-    'fecha'
   ];
   dataSource!: MatTableDataSource<any>;
 
